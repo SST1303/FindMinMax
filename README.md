@@ -1,5 +1,5 @@
 # FindMinMax
-# Find Largest and Smallest Number
+ Find Largest and Smallest Number
 
 A simple, elegant web application to find the minimum and maximum values from an array of numbers. Built with vanilla HTML, CSS, and JavaScript.
 
