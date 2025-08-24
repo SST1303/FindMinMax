@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Min/Max</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Largest and Smallest Number</h2>
+        <label for="numbersInput">Enter numbers(comma or space separated)</label>
+        <input id="numbersInput" type="text" placeholder="e.g. 50, 60, 20, 10, 40">
+        <button id="computeBtn">Compute</button>
+
+        <div id="errorMsg" class="error" aria-live="polite"></div>
+
+        <div id="results" class="results" hidden>
+            <p>Min: <span id="minValue">-</span></p>
+            <p>Max: <span id="maxValue">-</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
